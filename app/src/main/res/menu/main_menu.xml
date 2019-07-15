@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete_all_tasks"
+        android:title="@string/delete_all_tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/start_timer"
+        android:title="@string/start_timer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/stop_timer"
+        android:title="@string/reset_timer"
+        app:showAsAction="never" />
+</menu>

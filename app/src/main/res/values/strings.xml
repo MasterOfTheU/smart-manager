@@ -1,0 +1,38 @@
+<resources>
+    <!--TODO: Add translations to RU, UKR-->
+    <string name="app_name">Smart Manager</string>
+    <string name="placeholder_todoitem_priority">1</string>
+    <string name="placeholder_todoitem_title">Title</string>
+    <string name="placeholder_todoitem_description">Description</string>
+    <string name="label_add_new_task_text">Add new task:</string>
+    <string name="label_priority_text">Priority</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Add some details</string>
+    <string name="menu_save">Save</string>
+    <string name="label_category_text">Category</string>
+    <string name="delete_all_tasks">Delete all tasks</string>
+    <string name="remind_me">Remind me</string>
+    <string name="placeholder_reminder_set_for">Reminder set for %1$s, %2$s</string>
+    <string name="placeholder_todoitem_category">category</string>
+    <string name="at_symbol">\@</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="hint_choose_date">Date</string>
+    <string name="hint_choose_time">Time</string>
+    <string name="smart_manager">Smart Manager</string>
+    <string name="label_hours">Hours</string>
+    <string name="label_minutes">Minutes</string>
+    <string name="label_seconds">Seconds</string>
+    <string name="organize_list">Organize list</string>
+    <string name="start_timer">Start timer</string>
+    <string name="reset_timer">Reset timer</string>
+    <string name="completed_tasks">Completed tasks</string>
+    <string name="show_completed_tasks">Show completed tasks</string>
+
+    <string-array name="category_array">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Health</item>
+        <item>Personal</item>
+    </string-array>
+
+</resources>

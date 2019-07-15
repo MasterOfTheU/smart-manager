@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="numpicker_min_value">1</integer>
+    <integer name="numpicker_max_value">4</integer>
+    <integer name="priority_default_value">1</integer>
+    <integer name="no_value_id">-1</integer>
+</resources>

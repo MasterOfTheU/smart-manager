@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/completed_cardview_todo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_8dp"
+    android:layout_marginTop="@dimen/margin_8dp"
+    android:layout_marginEnd="@dimen/margin_8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/completed_todo_item_priority"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/completed_todo_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/completed_todo_item_priority"
+            android:layout_toLeftOf="@id/completed_todo_item_priority"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#63333333"
+            android:text="@string/placeholder_todoitem_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/completed_todo_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#63333333"
+            android:layout_below="@id/completed_todo_item_title"
+            android:text="@string/placeholder_todoitem_description" />
+
+        <TextView
+            android:id="@+id/completed_todo_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/completed_todo_item_description"
+            android:layout_marginTop="@dimen/margin_4dp"
+            android:text="@string/placeholder_todoitem_category"
+            android:lineSpacingExtra="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#fff"
+            android:paddingStart="@dimen/padding_10dp"
+            android:paddingEnd="@dimen/padding_10dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
